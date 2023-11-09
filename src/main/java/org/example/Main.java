@@ -16,7 +16,9 @@ public class main {
         fleet.addCar(e);
         fleet.addCar(d);
 
+        System.out.println("Total registration fee for all cars in fleet: " + fleet.getTotalRegistrationFeeForFleet());
         System.out.println(fleet);
+
     }
 
 
